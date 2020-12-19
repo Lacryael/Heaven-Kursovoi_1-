@@ -1,0 +1,371 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C4F94010-74A3-4023-AE54-F9FA9C981E1E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Heavenly_Judgement</RootNamespace>
+    <AssemblyName>Heavenly Judgement</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminForm.Designer.cs">
+      <DependentUpon>AdminForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base.cs" />
+    <Compile Include="BogForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BogForm.Designer.cs">
+      <DependentUpon>BogForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChtecForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChtecForm.Designer.cs">
+      <DependentUpon>ChtecForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeathForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeathForm.Designer.cs">
+      <DependentUpon>DeathForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HeavenDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HeavenDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HeavenDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HeavenDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SatanaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SatanaForm.Designer.cs">
+      <DependentUpon>SatanaForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SudForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SudForm.Designer.cs">
+      <DependentUpon>SudForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AdminForm.resx">
+      <DependentUpon>AdminForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BogForm.resx">
+      <DependentUpon>BogForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChtecForm.resx">
+      <DependentUpon>ChtecForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeathForm.resx">
+      <DependentUpon>DeathForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SatanaForm.resx">
+      <DependentUpon>SatanaForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SudForm.resx">
+      <DependentUpon>SudForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="HeavenDataSet.xsc">
+      <DependentUpon>HeavenDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="HeavenDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HeavenDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HeavenDataSet.xss">
+      <DependentUpon>HeavenDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="HeavenDataSet1.xsc">
+      <DependentUpon>HeavenDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="HeavenDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HeavenDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HeavenDataSet1.xss">
+      <DependentUpon>HeavenDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Cross.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Cross1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Main.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Ochered.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Spravka.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Vhod.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Satana.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Bog.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Death.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Sudya.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Chtec.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Death2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Satana2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Bog2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Sudya2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Chtec2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Death3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Bog3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Chtec3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Satana3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Sudya3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Poisk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Rai.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Ad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Ad2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Rai2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\SpravFon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Heaven.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Heaven2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Heaven4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Heaven666.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Bg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\bg2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Ocheredbg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\vhodbg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Butt1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Butt2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Butt3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\445808.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\adbg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\HellBut.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\HellBut1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Soul1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\CrossDeath.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\CrossChtec.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\CrossControl.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\CrossSud.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\CrossSatan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StHR.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\pentagon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\pentagon2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Penta2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Rab.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Edem.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Elysium.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Valhalla.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Work.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\EdemINV.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\ElysiumINV.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\ValhallaINV.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\WorkINV.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\ValhallaBG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\EdemBG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\ElysiumBG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\WorkBG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\TestBack.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

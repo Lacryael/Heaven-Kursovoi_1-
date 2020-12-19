@@ -1,0 +1,16 @@
+C:\Users\snowl\Desktop\Heavenly Judgement\Heavenly Judgement\bin\Release\Heavenly Judgement.exe.config
+C:\Users\snowl\Desktop\Heavenly Judgement\Heavenly Judgement\bin\Release\Heavenly Judgement.exe
+C:\Users\snowl\Desktop\Heavenly Judgement\Heavenly Judgement\bin\Release\Heavenly Judgement.pdb
+C:\Users\snowl\Desktop\Heavenly Judgement\Heavenly Judgement\obj\Release\Heavenly Judgement.csprojAssemblyReference.cache
+C:\Users\snowl\Desktop\Heavenly Judgement\Heavenly Judgement\obj\Release\Heavenly_Judgement.AdminForm.resources
+C:\Users\snowl\Desktop\Heavenly Judgement\Heavenly Judgement\obj\Release\Heavenly_Judgement.BogForm.resources
+C:\Users\snowl\Desktop\Heavenly Judgement\Heavenly Judgement\obj\Release\Heavenly_Judgement.ChtecForm.resources
+C:\Users\snowl\Desktop\Heavenly Judgement\Heavenly Judgement\obj\Release\Heavenly_Judgement.DeathForm.resources
+C:\Users\snowl\Desktop\Heavenly Judgement\Heavenly Judgement\obj\Release\Heavenly_Judgement.Main.resources
+C:\Users\snowl\Desktop\Heavenly Judgement\Heavenly Judgement\obj\Release\Heavenly_Judgement.Properties.Resources.resources
+C:\Users\snowl\Desktop\Heavenly Judgement\Heavenly Judgement\obj\Release\Heavenly_Judgement.SatanaForm.resources
+C:\Users\snowl\Desktop\Heavenly Judgement\Heavenly Judgement\obj\Release\Heavenly_Judgement.SudForm.resources
+C:\Users\snowl\Desktop\Heavenly Judgement\Heavenly Judgement\obj\Release\Heavenly Judgement.csproj.GenerateResource.cache
+C:\Users\snowl\Desktop\Heavenly Judgement\Heavenly Judgement\obj\Release\Heavenly Judgement.csproj.CoreCompileInputs.cache
+C:\Users\snowl\Desktop\Heavenly Judgement\Heavenly Judgement\obj\Release\Heavenly Judgement.exe
+C:\Users\snowl\Desktop\Heavenly Judgement\Heavenly Judgement\obj\Release\Heavenly Judgement.pdb

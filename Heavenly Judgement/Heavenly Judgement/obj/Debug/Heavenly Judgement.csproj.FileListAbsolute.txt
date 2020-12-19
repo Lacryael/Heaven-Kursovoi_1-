@@ -1,0 +1,42 @@
+C:\Users\snowl\source\repos\Heavenly Judgement\Heavenly Judgement\bin\Debug\Heavenly Judgement.exe.config
+C:\Users\snowl\source\repos\Heavenly Judgement\Heavenly Judgement\bin\Debug\Heavenly Judgement.exe
+C:\Users\snowl\source\repos\Heavenly Judgement\Heavenly Judgement\bin\Debug\Heavenly Judgement.pdb
+C:\Users\snowl\source\repos\Heavenly Judgement\Heavenly Judgement\obj\Debug\Heavenly Judgement.csprojAssemblyReference.cache
+C:\Users\snowl\source\repos\Heavenly Judgement\Heavenly Judgement\obj\Debug\Heavenly_Judgement.Form1.resources
+C:\Users\snowl\source\repos\Heavenly Judgement\Heavenly Judgement\obj\Debug\Heavenly_Judgement.Properties.Resources.resources
+C:\Users\snowl\source\repos\Heavenly Judgement\Heavenly Judgement\obj\Debug\Heavenly Judgement.csproj.GenerateResource.cache
+C:\Users\snowl\source\repos\Heavenly Judgement\Heavenly Judgement\obj\Debug\Heavenly Judgement.csproj.CoreCompileInputs.cache
+C:\Users\snowl\source\repos\Heavenly Judgement\Heavenly Judgement\obj\Debug\Heavenly Judgement.exe
+C:\Users\snowl\source\repos\Heavenly Judgement\Heavenly Judgement\obj\Debug\Heavenly Judgement.pdb
+C:\Users\snowl\Desktop\Heavenly Judgement\Heavenly Judgement\bin\Debug\Heavenly Judgement.exe.config
+C:\Users\snowl\Desktop\Heavenly Judgement\Heavenly Judgement\bin\Debug\Heavenly Judgement.exe
+C:\Users\snowl\Desktop\Heavenly Judgement\Heavenly Judgement\bin\Debug\Heavenly Judgement.pdb
+C:\Users\snowl\Desktop\Heavenly Judgement\Heavenly Judgement\obj\Debug\Heavenly Judgement.csprojAssemblyReference.cache
+C:\Users\snowl\Desktop\Heavenly Judgement\Heavenly Judgement\obj\Debug\Heavenly_Judgement.Main.resources
+C:\Users\snowl\Desktop\Heavenly Judgement\Heavenly Judgement\obj\Debug\Heavenly_Judgement.Properties.Resources.resources
+C:\Users\snowl\Desktop\Heavenly Judgement\Heavenly Judgement\obj\Debug\Heavenly Judgement.csproj.GenerateResource.cache
+C:\Users\snowl\Desktop\Heavenly Judgement\Heavenly Judgement\obj\Debug\Heavenly Judgement.csproj.CoreCompileInputs.cache
+C:\Users\snowl\Desktop\Heavenly Judgement\Heavenly Judgement\obj\Debug\Heavenly Judgement.exe
+C:\Users\snowl\Desktop\Heavenly Judgement\Heavenly Judgement\obj\Debug\Heavenly Judgement.pdb
+C:\Users\snowl\Desktop\Heavenly Judgement\Heavenly Judgement\obj\Debug\Heavenly_Judgement.DeathForm.resources
+C:\Users\snowl\Desktop\Heavenly Judgement\Heavenly Judgement\obj\Debug\Heavenly_Judgement.ChtecForm.resources
+C:\Users\snowl\Desktop\Heavenly Judgement\Heavenly Judgement\obj\Debug\Heavenly_Judgement.SudForm.resources
+C:\Users\snowl\Desktop\Heavenly Judgement\Heavenly Judgement\obj\Debug\Heavenly_Judgement.BogForm.resources
+C:\Users\snowl\Desktop\Heavenly Judgement\Heavenly Judgement\obj\Debug\Heavenly_Judgement.AdminForm.resources
+D:\Курсовой 2.0\Heavenly Judgement\Heavenly Judgement\bin\Debug\Heavenly Judgement.exe.config
+D:\Курсовой 2.0\Heavenly Judgement\Heavenly Judgement\bin\Debug\Heavenly Judgement.exe
+D:\Курсовой 2.0\Heavenly Judgement\Heavenly Judgement\bin\Debug\Heavenly Judgement.pdb
+D:\Курсовой 2.0\Heavenly Judgement\Heavenly Judgement\obj\Debug\Heavenly Judgement.csprojAssemblyReference.cache
+D:\Курсовой 2.0\Heavenly Judgement\Heavenly Judgement\obj\Debug\Heavenly_Judgement.AdminForm.resources
+D:\Курсовой 2.0\Heavenly Judgement\Heavenly Judgement\obj\Debug\Heavenly_Judgement.BogForm.resources
+D:\Курсовой 2.0\Heavenly Judgement\Heavenly Judgement\obj\Debug\Heavenly_Judgement.ChtecForm.resources
+D:\Курсовой 2.0\Heavenly Judgement\Heavenly Judgement\obj\Debug\Heavenly_Judgement.DeathForm.resources
+D:\Курсовой 2.0\Heavenly Judgement\Heavenly Judgement\obj\Debug\Heavenly_Judgement.Main.resources
+D:\Курсовой 2.0\Heavenly Judgement\Heavenly Judgement\obj\Debug\Heavenly_Judgement.Properties.Resources.resources
+D:\Курсовой 2.0\Heavenly Judgement\Heavenly Judgement\obj\Debug\Heavenly_Judgement.Сатана.resources
+D:\Курсовой 2.0\Heavenly Judgement\Heavenly Judgement\obj\Debug\Heavenly_Judgement.SudForm.resources
+D:\Курсовой 2.0\Heavenly Judgement\Heavenly Judgement\obj\Debug\Heavenly Judgement.csproj.GenerateResource.cache
+D:\Курсовой 2.0\Heavenly Judgement\Heavenly Judgement\obj\Debug\Heavenly Judgement.csproj.CoreCompileInputs.cache
+D:\Курсовой 2.0\Heavenly Judgement\Heavenly Judgement\obj\Debug\Heavenly Judgement.exe
+D:\Курсовой 2.0\Heavenly Judgement\Heavenly Judgement\obj\Debug\Heavenly Judgement.pdb
+C:\Users\snowl\Desktop\Heavenly Judgement\Heavenly Judgement\obj\Debug\Heavenly_Judgement.SatanaForm.resources
